@@ -1,0 +1,326 @@
+/* Section-1 */
+
+/* Khusus Navbar dan printilannya */
+.navbar {
+    background-color: #F1F3FF !important;
+    height: 4rem;
+}
+
+.container-fluid {
+
+    margin: 15px;
+    /* background-color: #F1F3FF; */
+}
+
+.container-1 {
+    background-color: #F1F3FF;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+
+.btn-register {
+    background-color: #5CB85F;
+    color: white !important;
+    border-radius: 2px;
+}
+
+.nav-link {
+    margin-left: 32px;
+    font-size: 14px;
+    line-height: 20px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Akhir Navbar */
+
+
+/* konten 2 */
+
+/* konten 2, menggunakan card */
+.card-body-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F1F3FF;
+}
+
+.card-1 {
+    border: none !important;
+}
+
+.judul-1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.desc-1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* konten 2, menggunakan card */
+
+.konten-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F1F3FF;
+}
+
+.btn-sewa-1 {
+    background-color: #5CB85F !important;
+    width: 140px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+/* akhir KOnten 2 */
+/* Akhir Section 1 */
+
+
+
+
+
+/* Section 2 */
+.container-2 {
+    margin-top: 100px;
+
+}
+
+
+.card-2 {
+    justify-content: center;
+    width: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    border: none !important;
+}
+
+
+
+/* Akhir Section-2 */
+
+
+/* Why US */
+.card-why-us {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5rem !important;
+}
+
+.card-why-us-1 {
+    border-radius: 8px !important;
+    padding: 1rem;
+}
+
+/* Akhir Why Us */
+
+
+/* caontainer-4 testimonial */
+.container-4 {
+    margin-top: 5rem;
+    height: 15rem;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    background-color: #F1F3FF;
+    border-radius: 8px;
+
+
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-content-testimoni {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.container-star-testimoni {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    /* background-color: black; */
+    margin-left: 1rem;
+}
+
+.container-desc-testimoni {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+
+}
+
+.desc-testimoni {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.h6-testimoni {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+.container-khusus-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+
+/* Akhir Testimonial */
+
+
+
+
+/* container 5 */
+
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+
+
+    margin-top: 9.75rem;
+    background-color: rgba(13, 40, 166, 1);
+}
+
+
+.title-container-5 {
+    margin-top: 4rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: #FFFF;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.content-container-5 {
+    margin-top: 1rem;
+    margin-bottom: 3.75rem;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+    text-align: center;
+}
+
+.container-btn-sewa-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(13, 40, 166, 1)
+}
+
+.btn-sewa-2 {
+    border-radius: 2px;
+    background-color: #5CB85F !important;
+    margin-bottom: 4rem;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* Akhir container-5 */
+
+
+/* container-6 FAQ */
+
+.container-6 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.25rem;
+    
+}
+
+.title-faq {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.content-faq {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 1rem;
+}
+
+.accordion-button{
+    border: 1px solid #D4D4D4 !important;
+    border-radius: 4px !important;
+}
+
+/* Akhir Container-6 */
+
+
+.container-footer {
+    margin-top: 9.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-socmed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
